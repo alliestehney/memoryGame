@@ -1,0 +1,141 @@
+
+body {
+	background-color: #a9e4f7;
+}
+
+#start {
+	margin: 19% 45%;
+	padding: 15px 25px;
+    color: darkslateblue;
+    background-color: #778899;
+    font-size: 100%;
+    font-weight: bold;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
+#start:hover {
+background-color: lightskyblue;
+color: white;
+
+}
+#game {
+	display: none;
+}
+
+#reset {
+	display: none;
+
+}
+
+#thanks {
+	display: none;
+}
+.card {
+	/*background-color: black;*/
+	color: white;
+	padding: 0;
+	margin: 0.5%;
+	overflow: hidden;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease;
+}
+
+/*.card:hover {
+	transform: rotateY(180deg);
+}*/
+
+#firstRow {
+	display: flex;
+	justify-content: center;
+}
+
+#secondRow {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-item1 {
+	width: 20%;
+	height: auto;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.cardFront {
+
+background: rgb(30,87,153);
+background: -moz-linear-gradient(-45deg, rgb(30,87,153) 0%, rgb(41,137,216) 50%, rgb(32,124,202) 51%, rgb(125,185,232) 100%);
+background: -webkit-linear-gradient(-45deg, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(32,124,202) 51%,rgb(125,185,232) 100%);
+background: linear-gradient(135deg, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(32,124,202) 51%,rgb(125,185,232) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+
+	border: 2px solid black;
+	padding: 50%;
+	margin-left: -52%;
+/*background-color: 	#778899;*/
+}
+
+.cardBack {
+	display: none;
+}
+
+.disappear {
+    display: none !important;
+}
+
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+#start, #reset {
+	font-family:'Roboto', sans-serif;
+}
+
+#reset {
+	text-align: center;
+	margin: auto 46%;
+	padding: 1% 2%;
+	border: none;
+	background-color: #778899;
+	
+}
+
+#reset:hover {
+background-color: lightskyblue;
+color: white;
+
+box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+cursor:pointer;
+
+}
+
+#music {
+	display: none;
+}
